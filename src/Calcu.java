@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Calcu {
     public static void main(String[] args) {
 
         // Создаем объект Scanner для считывания пользовательского ввода.
