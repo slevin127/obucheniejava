@@ -27,7 +27,7 @@ public class Find_number {
                 }
 
                 if (yourNumber == myNumber) {
-                    System.out.println("🎉 Поздравляем! Вы угадали число " + myNumber + " за " + attempts + " попыток.");
+                    System.out.println("Поздравляем! Вы угадали число " + myNumber + " за " + attempts + " попыток.");
                     break; // Завершаем игру
                 } else if (yourNumber < myNumber) {
                     System.out.println("🔼 Мало! Попробуйте больше.");
@@ -44,6 +44,6 @@ public class Find_number {
             }
         }
         scanner.close(); // Закрываем Scanner
-        System.out.println("Спасибо за игру! 😊");
+        System.out.println("Спасибо за игру!");
     }
 }
