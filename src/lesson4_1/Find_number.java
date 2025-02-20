@@ -32,7 +32,7 @@ public class Find_number {
                 } else if (yourNumber < myNumber) {
                     System.out.println("🔼 Мало! Попробуйте больше.");
                 } else {
-                    System.out.println("🔽 Много! Попробуйте меньше.");
+                    System.out.println("Много! Попробуйте меньше.");
                 }
             } else {
                 System.out.println("Ошибка: Введите целое число!");
