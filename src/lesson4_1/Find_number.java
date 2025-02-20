@@ -30,7 +30,7 @@ public class Find_number {
                     System.out.println("Поздравляем! Вы угадали число " + myNumber + " за " + attempts + " попыток.");
                     break; // Завершаем игру
                 } else if (yourNumber < myNumber) {
-                    System.out.println("🔼 Мало! Попробуйте больше.");
+                    System.out.println("Мало! Попробуйте больше.");
                 } else {
                     System.out.println("Много! Попробуйте меньше.");
                 }

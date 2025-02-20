@@ -32,6 +32,6 @@ package lesson4_2;
     }
 
     public void printPosition() {
-        System.out.println("The Tank is at " + x + ", " + y + " now. Fuel: " + fuel);
+        System.out.println("The Tank is at " + x + ", " + y + " now.");
     }
 }
