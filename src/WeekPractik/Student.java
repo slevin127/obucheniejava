@@ -27,8 +27,11 @@ class StudentGrup {
     public static void main(String[] args) {
         Student student1 = new Student("Valera");
         Student student2 = new Student("Vitali", 17, 5);
+        Student student3 = new Student("Vital", 20, 10);
         student1.infoAboutStudent();
         student2.infoAboutStudent();
+        student3.infoAboutStudent();
+
 
     }
 }
