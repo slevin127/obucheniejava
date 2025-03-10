@@ -1,6 +1,6 @@
 package lesson4_2;
 
-public class Cat {
+ class Cat {
     private double weight;
     private String name;
     private int age;
