@@ -1,6 +1,6 @@
 package OOP.exercis6_2_2;
 
-public class Animal {
+ class Animal {
 
     private boolean vegetarian;
     private String eats;
