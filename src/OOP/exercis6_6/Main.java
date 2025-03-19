@@ -17,7 +17,8 @@ public class Main {
         truck2.getLoader();
         truck2.print();
         track.setType();
-
+        Car car2 = new Car("green", "cargo", 90, 1200,new byte[] {25, 70, 110});
+car2.print();
     }
 
 
