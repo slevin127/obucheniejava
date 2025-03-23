@@ -19,6 +19,11 @@ public class Truck extends Transport {
         System.out.println("Грузопассажирский");
     }
 
+    @Override
+    public void moveObject(float speed) {
+        System.out.println("Truck speed: " + speed);
+
+    }
 //    @Override
 //    public float getSpeed() {
 //        return super.getSpeed();

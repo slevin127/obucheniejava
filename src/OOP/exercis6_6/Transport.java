@@ -2,7 +2,7 @@ package OOP.exercis6_6;
 
 import java.util.Arrays;
 
-public class Transport {
+public abstract class Transport {
     //String name;
     private String color;
     private String type;
@@ -33,10 +33,8 @@ public Transport() {}
                 + speed + " " + weight + " " + Arrays.toString(coordinates));
     }
 
+public abstract void moveObject(float speed);
 
-    public String getColor() {
-        return color;
-    }
 
     public void setColor(String color) {
         this.color = color;

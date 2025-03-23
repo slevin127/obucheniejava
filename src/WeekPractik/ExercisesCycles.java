@@ -9,7 +9,7 @@ public class ExercisesCycles {
         System.out.println("Введите число: ");
         int num = scanner.nextInt();
         for (int i = 1; i <= num; i++) {
-            System.out.print(+i);
+            System.out.println(+i);
         }
     }
 }

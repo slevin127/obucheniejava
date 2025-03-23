@@ -8,5 +8,10 @@ public class Car extends Transport {
         this.setSpeed(230);
     }
 
+    @Override
+    public void moveObject(float speed) {
+        System.out.println("Car speed: " + speed);
+    }
+
 
 }
