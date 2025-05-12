@@ -8,12 +8,12 @@ receipt.txt, содержащие записи о товарах в формат
 отформатированную до двух знаков после запятой.
  */
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class Receipt1 {
-    public String getReceipt() throws FileNotFoundException {
+    public static String getReceipt() throws IOException {
         Scanner scanner = new Scanner(new FileInputStream("src/receipt.txt"));
         double result = 0;
 
